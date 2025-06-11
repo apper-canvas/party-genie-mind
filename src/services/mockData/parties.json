@@ -1,0 +1,266 @@
+[
+  {
+    "id": "1",
+    "occasion": "Birthday Party",
+    "date": "2024-02-15",
+    "guestCount": 25,
+    "ageRanges": ["Kids (4-12)", "Adults (18-64)"],
+    "budget": 800,
+    "venue": "Backyard/Outdoor",
+    "preferences": "Superhero theme, lots of activities for kids",
+    "savedAt": "2024-01-15T10:30:00Z",
+    "theme": {
+      "id": "superhero-adventure",
+      "name": "Superhero Adventure",
+      "description": "An action-packed celebration where every guest becomes a superhero! Perfect for young heroes and their families.",
+      "colorScheme": ["#FF6B6B", "#4ECDC4", "#FFE66D", "#9B59B6", "#E74C3C"],
+      "decorItems": [
+        {
+          "name": "Superhero Cape Set",
+          "category": "Costumes",
+          "shopLink": "https://amazon.com/superhero-capes",
+          "price": 45,
+          "image": "/images/superhero-capes.jpg"
+        },
+        {
+          "name": "City Skyline Backdrop",
+          "category": "Decorations",
+          "shopLink": "https://etsy.com/city-backdrop",
+          "price": 35,
+          "image": "/images/city-backdrop.jpg"
+        },
+        {
+          "name": "Comic Book Action Balloons",
+          "category": "Balloons",
+          "shopLink": "https://partystore.com/comic-balloons",
+          "price": 25,
+          "image": "/images/comic-balloons.jpg"
+        }
+      ],
+      "playlist": {
+        "name": "Superhero Power Playlist",
+        "description": "Epic superhero themes and energetic songs to power up your party",
+        "duration": "2h 15m",
+        "songs": ["Superman Theme", "Wonder Woman Theme", "Spider-Man Theme", "Avengers Theme"],
+        "spotifyLink": "https://open.spotify.com/playlist/superhero-power"
+      },
+      "menuItems": [
+        {
+          "name": "Power-Up Pizza Bites",
+          "type": "Main Course",
+          "recipeLink": "https://recipe.com/power-pizza",
+          "servings": 25,
+          "dietaryTags": ["Kid-Friendly"]
+        },
+        {
+          "name": "Hero Fuel Smoothies",
+          "type": "Beverage",
+          "recipeLink": "https://recipe.com/hero-smoothies",
+          "servings": 25,
+          "dietaryTags": ["Healthy", "Vegetarian"]
+        },
+        {
+          "name": "Super Strength Sandwiches",
+          "type": "Main Course",
+          "recipeLink": "https://recipe.com/super-sandwiches",
+          "servings": 25,
+          "dietaryTags": ["Kid-Friendly", "Customizable"]
+        }
+      ],
+      "activities": [
+        {
+          "name": "Superhero Training Academy",
+          "description": "Obstacle course with jumping, crawling, and strength challenges",
+          "duration": "30 minutes",
+          "participants": "All ages"
+        },
+        {
+          "name": "Design Your Superhero",
+          "description": "Craft station where kids create their own superhero identity",
+          "duration": "45 minutes",
+          "participants": "Kids 4-12"
+        },
+        {
+          "name": "Save the City Game",
+          "description": "Team-based scavenger hunt to collect superhero items",
+          "duration": "20 minutes",
+          "participants": "Teams of 4-6"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2",
+    "occasion": "Wedding",
+    "date": "2024-06-20",
+    "guestCount": 120,
+    "ageRanges": ["Adults (18-64)", "Seniors (65+)"],
+    "budget": 3500,
+    "venue": "Event Hall",
+    "preferences": "Elegant garden theme, romantic atmosphere",
+    "savedAt": "2024-01-20T14:45:00Z",
+    "theme": {
+      "id": "enchanted-garden",
+      "name": "Enchanted Garden Romance",
+      "description": "A magical garden wedding with lush florals, twinkling lights, and romantic touches that create an unforgettable fairy-tale atmosphere.",
+      "colorScheme": ["#E8F5E8", "#C5E1C5", "#8FBC8F", "#F8F8FF", "#DDA0DD"],
+      "decorItems": [
+        {
+          "name": "Floral Archway",
+          "category": "Ceremony",
+          "shopLink": "https://weddingdecor.com/floral-arch",
+          "price": 450,
+          "image": "/images/floral-arch.jpg"
+        },
+        {
+          "name": "String Light Canopy",
+          "category": "Lighting",
+          "shopLink": "https://eventlighting.com/string-lights",
+          "price": 200,
+          "image": "/images/string-lights.jpg"
+        },
+        {
+          "name": "Garden Rose Centerpieces",
+          "category": "Table Decor",
+          "shopLink": "https://florals.com/rose-centerpieces",
+          "price": 75,
+          "image": "/images/rose-centerpieces.jpg"
+        }
+      ],
+      "playlist": {
+        "name": "Garden Romance Playlist",
+        "description": "Romantic acoustic and classical pieces perfect for an intimate garden celebration",
+        "duration": "4h 30m",
+        "songs": ["At Last", "The Way You Look Tonight", "Perfect", "All of Me"],
+        "spotifyLink": "https://open.spotify.com/playlist/garden-romance"
+      },
+      "menuItems": [
+        {
+          "name": "Herb-Crusted Salmon",
+          "type": "Main Course",
+          "recipeLink": "https://recipe.com/herb-salmon",
+          "servings": 120,
+          "dietaryTags": ["Gluten-Free", "Elegant"]
+        },
+        {
+          "name": "Garden Salad with Edible Flowers",
+          "type": "Salad",
+          "recipeLink": "https://recipe.com/flower-salad",
+          "servings": 120,
+          "dietaryTags": ["Vegetarian", "Beautiful"]
+        },
+        {
+          "name": "Lavender Honey Cake",
+          "type": "Dessert",
+          "recipeLink": "https://recipe.com/lavender-cake",
+          "servings": 120,
+          "dietaryTags": ["Wedding Cake", "Floral"]
+        }
+      ],
+      "activities": [
+        {
+          "name": "Garden Photo Session",
+          "description": "Professional photos among beautiful floral arrangements",
+          "duration": "Throughout event",
+          "participants": "All guests"
+        },
+        {
+          "name": "Romantic First Dance",
+          "description": "Special lighting and music for the couple's first dance",
+          "duration": "5 minutes",
+          "participants": "Couple"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3",
+    "occasion": "Corporate Event",
+    "date": "2024-03-10",
+    "guestCount": 75,
+    "ageRanges": ["Adults (18-64)"],
+    "budget": 2200,
+    "venue": "Event Hall",
+    "preferences": "Professional networking, team building activities",
+    "savedAt": "2024-01-25T09:15:00Z",
+    "theme": {
+      "id": "innovation-summit",
+      "name": "Innovation Summit",
+      "description": "A modern, tech-inspired corporate event that fosters networking, innovation, and team collaboration in a sleek, professional setting.",
+      "colorScheme": ["#2C3E50", "#3498DB", "#ECF0F1", "#E74C3C", "#F39C12"],
+      "decorItems": [
+        {
+          "name": "LED Display Walls",
+          "category": "Technology",
+          "shopLink": "https://corporate-av.com/led-walls",
+          "price": 800,
+          "image": "/images/led-walls.jpg"
+        },
+        {
+          "name": "Modern Lounge Furniture",
+          "category": "Seating",
+          "shopLink": "https://event-rentals.com/modern-lounge",
+          "price": 400,
+          "image": "/images/modern-lounge.jpg"
+        },
+        {
+          "name": "Interactive Charging Stations",
+          "category": "Technology",
+          "shopLink": "https://tech-events.com/charging-stations",
+          "price": 150,
+          "image": "/images/charging-stations.jpg"
+        }
+      ],
+      "playlist": {
+        "name": "Corporate Networking Mix",
+        "description": "Upbeat but professional background music for networking and presentations",
+        "duration": "3h 45m",
+        "songs": ["Uptown Funk", "Can't Stop the Feeling", "Happy", "Good as Hell"],
+        "spotifyLink": "https://open.spotify.com/playlist/corporate-networking"
+      },
+      "menuItems": [
+        {
+          "name": "Executive Lunch Boxes",
+          "type": "Main Course",
+          "recipeLink": "https://catering.com/executive-lunch",
+          "servings": 75,
+          "dietaryTags": ["Professional", "Portable"]
+        },
+        {
+          "name": "Gourmet Coffee Bar",
+          "type": "Beverage",
+          "recipeLink": "https://coffee.com/corporate-bar",
+          "servings": 75,
+          "dietaryTags": ["Energizing", "Premium"]
+        },
+        {
+          "name": "Innovation Inspiration Cookies",
+          "type": "Dessert",
+          "recipeLink": "https://bakery.com/corporate-cookies",
+          "servings": 75,
+          "dietaryTags": ["Custom Branded", "Sweet"]
+        }
+      ],
+      "activities": [
+        {
+          "name": "Innovation Workshop",
+          "description": "Interactive brainstorming sessions with digital collaboration tools",
+          "duration": "90 minutes",
+          "participants": "Teams of 8-10"
+        },
+        {
+          "name": "Tech Demo Stations",
+          "description": "Hands-on demonstrations of latest industry innovations",
+          "duration": "2 hours",
+          "participants": "Self-guided"
+        },
+        {
+          "name": "Professional Networking Game",
+          "description": "Structured networking activity with conversation starters",
+          "duration": "45 minutes",
+          "participants": "All attendees"
+        }
+      ]
+    }
+  }
+]

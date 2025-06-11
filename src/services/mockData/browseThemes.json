@@ -1,0 +1,284 @@
+[
+  {
+    "id": "enchanted-fairy-tale",
+    "name": "Enchanted Fairy Tale",
+    "category": "birthday",
+    "description": "Transform your space into a magical fairy tale kingdom with whimsical decorations, fairy lights, and storybook charm.",
+    "colorScheme": ["#FFB6C1", "#DDA0DD", "#98FB98", "#F0E68C", "#E6E6FA"],
+    "decorItems": [
+      {
+        "name": "Fairy Light Canopy",
+        "category": "Lighting",
+        "shopLink": "https://fairytale.com/light-canopy",
+        "price": 65,
+        "image": "/images/fairy-canopy.jpg"
+      },
+      {
+        "name": "Enchanted Forest Backdrop",
+        "category": "Photo Booth",
+        "shopLink": "https://magical.com/forest-backdrop",
+        "price": 45,
+        "image": "/images/forest-backdrop.jpg"
+      }
+    ],
+    "playlist": {
+      "name": "Fairy Tale Magic",
+      "description": "Magical and whimsical songs that bring fairy tales to life",
+      "duration": "2h 30m",
+      "songs": ["A Whole New World", "Be Our Guest", "Bibbidi-Bobbidi-Boo"],
+      "spotifyLink": "https://open.spotify.com/playlist/fairy-tale-magic"
+    },
+    "menuItems": [
+      {
+        "name": "Magic Potion Drinks",
+        "type": "Beverage",
+        "recipeLink": "https://recipe.com/magic-potions",
+        "servings": 20,
+        "dietaryTags": ["Colorful", "Kid-Friendly"]
+      }
+    ],
+    "activities": [
+      {
+        "name": "Fairy Crown Making",
+        "description": "Craft beautiful crowns fit for fairy tale royalty",
+        "duration": "30 minutes",
+        "participants": "All ages"
+      }
+    ]
+  },
+  {
+    "id": "boho-chic-celebration",
+    "name": "Boho Chic Celebration",
+    "category": "wedding",
+    "description": "A free-spirited celebration with natural textures, warm earth tones, and relaxed bohemian elegance.",
+    "colorScheme": ["#D2B48C", "#F4A460", "#CD853F", "#DEB887", "#BC8F8F"],
+    "decorItems": [
+      {
+        "name": "Macrame Wall Hangings",
+        "category": "Wall Decor",
+        "shopLink": "https://boho.com/macrame-hangings",
+        "price": 55,
+        "image": "/images/macrame-wall.jpg"
+      },
+      {
+        "name": "Pampas Grass Arrangements",
+        "category": "Centerpieces",
+        "shopLink": "https://natural.com/pampas-grass",
+        "price": 38,
+        "image": "/images/pampas-grass.jpg"
+      }
+    ],
+    "playlist": {
+      "name": "Boho Acoustic Vibes",
+      "description": "Relaxed acoustic and indie folk perfect for bohemian celebrations",
+      "duration": "3h 45m",
+      "songs": ["Ho Hey", "Home", "Riptide", "Budapest"],
+      "spotifyLink": "https://open.spotify.com/playlist/boho-acoustic"
+    },
+    "menuItems": [
+      {
+        "name": "Artisan Cheese Board",
+        "type": "Appetizer",
+        "recipeLink": "https://recipe.com/artisan-cheese",
+        "servings": 50,
+        "dietaryTags": ["Elegant", "Vegetarian"]
+      }
+    ],
+    "activities": [
+      {
+        "name": "Flower Crown Workshop",
+        "description": "Create beautiful bohemian flower crowns",
+        "duration": "45 minutes",
+        "participants": "All guests"
+      }
+    ]
+  },
+  {
+    "id": "winter-wonderland",
+    "name": "Winter Wonderland",
+    "category": "holiday",
+    "description": "Create a magical winter scene with sparkly snow, icy blues, and cozy warm touches for the perfect seasonal celebration.",
+    "colorScheme": ["#B0E0E6", "#E0FFFF", "#F0F8FF", "#C0C0C0", "#4682B4"],
+    "decorItems": [
+      {
+        "name": "Snowflake String Lights",
+        "category": "Lighting",
+        "shopLink": "https://winter.com/snowflake-lights",
+        "price": 42,
+        "image": "/images/snowflake-lights.jpg"
+      },
+      {
+        "name": "Ice Crystal Centerpieces",
+        "category": "Table Decor",
+        "shopLink": "https://frozen.com/ice-crystals",
+        "price": 35,
+        "image": "/images/ice-crystals.jpg"
+      }
+    ],
+    "playlist": {
+      "name": "Winter Magic Playlist",
+      "description": "Cozy winter songs and holiday classics for a magical atmosphere",
+      "duration": "4h 0m",
+      "songs": ["Let it Snow", "Winter Wonderland", "Sleigh Ride", "White Christmas"],
+      "spotifyLink": "https://open.spotify.com/playlist/winter-magic"
+    },
+    "menuItems": [
+      {
+        "name": "Hot Chocolate Bar",
+        "type": "Beverage",
+        "recipeLink": "https://recipe.com/hot-chocolate-bar",
+        "servings": 40,
+        "dietaryTags": ["Warm", "Customizable", "Cozy"]
+      }
+    ],
+    "activities": [
+      {
+        "name": "Snowflake Craft Station",
+        "description": "Create beautiful paper snowflakes and winter art",
+        "duration": "35 minutes",
+        "participants": "All ages"
+      }
+    ]
+  },
+  {
+    "id": "safari-adventure",
+    "name": "Safari Adventure",
+    "category": "kids",
+    "description": "Go on a wild adventure with jungle animals, safari decorations, and explorer activities perfect for young adventurers.",
+    "colorScheme": ["#8FBC8F", "#DEB887", "#CD853F", "#F4A460", "#228B22"],
+    "decorItems": [
+      {
+        "name": "Jungle Animal Cutouts",
+        "category": "Wall Decor",
+        "shopLink": "https://safari.com/animal-cutouts",
+        "price": 30,
+        "image": "/images/animal-cutouts.jpg"
+      },
+      {
+        "name": "Safari Hat Party Favors",
+        "category": "Party Favors",
+        "shopLink": "https://adventure.com/safari-hats",
+        "price": 25,
+        "image": "/images/safari-hats.jpg"
+      }
+    ],
+    "playlist": {
+      "name": "Safari Adventure Sounds",
+      "description": "Jungle sounds and adventurous music for safari exploration",
+      "duration": "2h 15m",
+      "songs": ["Circle of Life", "I Wanna Be Like You", "Hakuna Matata"],
+      "spotifyLink": "https://open.spotify.com/playlist/safari-adventure"
+    },
+    "menuItems": [
+      {
+        "name": "Animal Crackers Trail Mix",
+        "type": "Snack",
+        "recipeLink": "https://recipe.com/safari-trail-mix",
+        "servings": 15,
+        "dietaryTags": ["Kid-Friendly", "Portable"]
+      }
+    ],
+    "activities": [
+      {
+        "name": "Animal Safari Hunt",
+        "description": "Search for hidden toy animals around the party area",
+        "duration": "25 minutes",
+        "participants": "Kids 3-10"
+      }
+    ]
+  },
+  {
+    "id": "modern-minimalist",
+    "name": "Modern Minimalist",
+    "category": "corporate",
+    "description": "Clean, sophisticated design with neutral colors and elegant simplicity perfect for professional gatherings.",
+    "colorScheme": ["#FFFFFF", "#F5F5F5", "#E8E8E8", "#C0C0C0", "#808080"],
+    "decorItems": [
+      {
+        "name": "Geometric Centerpieces",
+        "category": "Table Decor",
+        "shopLink": "https://modern.com/geometric-centers",
+        "price": 45,
+        "image": "/images/geometric-centers.jpg"
+      },
+      {
+        "name": "Minimalist Signage",
+        "category": "Signage",
+        "shopLink": "https://professional.com/minimal-signs",
+        "price": 60,
+        "image": "/images/minimal-signs.jpg"
+      }
+    ],
+    "playlist": {
+      "name": "Modern Corporate Mix",
+      "description": "Subtle, professional background music for networking",
+      "duration": "3h 30m",
+      "songs": ["Weightless", "Clair de Lune", "Gymnopédie No. 1"],
+      "spotifyLink": "https://open.spotify.com/playlist/modern-corporate"
+    },
+    "menuItems": [
+      {
+        "name": "Artisan Canapés",
+        "type": "Appetizer",
+        "recipeLink": "https://recipe.com/artisan-canapes",
+        "servings": 60,
+        "dietaryTags": ["Elegant", "Professional"]
+      }
+    ],
+    "activities": [
+      {
+        "name": "Professional Networking",
+        "description": "Structured networking with conversation prompts",
+        "duration": "60 minutes",
+        "participants": "All attendees"
+      }
+    ]
+  },
+  {
+    "id": "retro-80s-party",
+    "name": "Radical 80s Throwback",
+    "category": "birthday",
+    "description": "Travel back to the totally awesome 80s with neon colors, classic hits, and retro vibes that'll make everyone dance.",
+    "colorScheme": ["#FF1493", "#00FFFF", "#FFD700", "#9370DB", "#FF69B4"],
+    "decorItems": [
+      {
+        "name": "Neon Light Display",
+        "category": "Lighting",
+        "shopLink": "https://retro.com/neon-lights",
+        "price": 85,
+        "image": "/images/neon-lights.jpg"
+      },
+      {
+        "name": "Disco Ball Set",
+        "category": "Decorations",
+        "shopLink": "https://party.com/disco-balls",
+        "price": 35,
+        "image": "/images/disco-balls.jpg"
+      }
+    ],
+    "playlist": {
+      "name": "80s Hit Machine",
+      "description": "The best hits from the decade that brought us everything awesome",
+      "duration": "3h 15m",
+      "songs": ["Don't Stop Believin'", "Sweet Child O' Mine", "Billie Jean", "Girls Just Want to Have Fun"],
+      "spotifyLink": "https://open.spotify.com/playlist/80s-hit-machine"
+    },
+    "menuItems": [
+      {
+        "name": "Retro Cocktail Bar",
+        "type": "Beverage",
+        "recipeLink": "https://cocktails.com/retro-drinks",
+        "servings": 40,
+        "dietaryTags": ["Classic", "Nostalgic"]
+      }
+    ],
+    "activities": [
+      {
+        "name": "80s Dance Contest",
+        "description": "Show off your best retro dance moves",
+        "duration": "30 minutes",
+        "participants": "All ages"
+      }
+    ]
+  }
+]

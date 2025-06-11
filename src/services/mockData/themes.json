@@ -1,0 +1,287 @@
+[
+  {
+    "id": "tropical-paradise",
+    "name": "Tropical Paradise",
+    "description": "Escape to a tropical oasis with vibrant colors, exotic flowers, and island vibes that transport your guests to paradise.",
+    "colorScheme": ["#FF6B35", "#F7931E", "#FFD23F", "#06FFA5", "#118AB2"],
+    "decorItems": [
+      {
+        "name": "Tropical Flower Leis",
+        "category": "Party Favors",
+        "shopLink": "https://amazon.com/tropical-leis",
+        "price": 25,
+        "image": "/images/tropical-leis.jpg"
+      },
+      {
+        "name": "Palm Leaf Table Runners",
+        "category": "Table Decor",
+        "shopLink": "https://partystore.com/palm-runners",
+        "price": 18,
+        "image": "/images/palm-runners.jpg"
+      },
+      {
+        "name": "Tiki Torch Set",
+        "category": "Lighting",
+        "shopLink": "https://outdoor.com/tiki-torches",
+        "price": 65,
+        "image": "/images/tiki-torches.jpg"
+      },
+      {
+        "name": "Pineapple Centerpieces",
+        "category": "Centerpieces",
+        "shopLink": "https://decor.com/pineapple-center",
+        "price": 32,
+        "image": "/images/pineapple-center.jpg"
+      }
+    ],
+    "playlist": {
+      "name": "Island Paradise Vibes",
+      "description": "Tropical and reggae hits that bring the beach party atmosphere",
+      "duration": "3h 20m",
+      "songs": ["Three Little Birds", "Kokomo", "Margaritaville", "Red Red Wine"],
+      "spotifyLink": "https://open.spotify.com/playlist/island-paradise"
+    },
+    "menuItems": [
+      {
+        "name": "Tropical Fruit Kabobs",
+        "type": "Appetizer",
+        "recipeLink": "https://recipe.com/fruit-kabobs",
+        "servings": 30,
+        "dietaryTags": ["Healthy", "Vegetarian", "Colorful"]
+      },
+      {
+        "name": "Coconut Shrimp",
+        "type": "Main Course",
+        "recipeLink": "https://recipe.com/coconut-shrimp",
+        "servings": 30,
+        "dietaryTags": ["Tropical", "Crispy"]
+      },
+      {
+        "name": "Mango Smoothie Bar",
+        "type": "Beverage",
+        "recipeLink": "https://recipe.com/mango-smoothies",
+        "servings": 30,
+        "dietaryTags": ["Refreshing", "Customizable"]
+      },
+      {
+        "name": "Pina Colada Cake",
+        "type": "Dessert",
+        "recipeLink": "https://recipe.com/pina-colada-cake",
+        "servings": 30,
+        "dietaryTags": ["Tropical", "Decadent"]
+      }
+    ],
+    "activities": [
+      {
+        "name": "Limbo Contest",
+        "description": "Classic beach party game with tropical music",
+        "duration": "15 minutes",
+        "participants": "All ages"
+      },
+      {
+        "name": "Tropical Flower Crown Making",
+        "description": "DIY craft station to create beautiful flower crowns",
+        "duration": "30 minutes",
+        "participants": "All guests"
+      },
+      {
+        "name": "Island Dance Off",
+        "description": "Fun dance competition with Caribbean moves",
+        "duration": "20 minutes",
+        "participants": "Teams or individuals"
+      }
+    ]
+  },
+  {
+    "id": "vintage-hollywood",
+    "name": "Vintage Hollywood Glamour",
+    "description": "Step into the golden age of Hollywood with elegant black and gold décor, classic cocktails, and old-school glamour.",
+    "colorScheme": ["#000000", "#FFD700", "#C0C0C0", "#800020", "#F5F5DC"],
+    "decorItems": [
+      {
+        "name": "Art Deco Backdrop",
+        "category": "Photo Booth",
+        "shopLink": "https://vintage.com/art-deco-backdrop",
+        "price": 85,
+        "image": "/images/art-deco-backdrop.jpg"
+      },
+      {
+        "name": "Gold Feather Centerpieces",
+        "category": "Table Decor",
+        "shopLink": "https://glamour.com/feather-centers",
+        "price": 45,
+        "image": "/images/feather-centers.jpg"
+      },
+      {
+        "name": "Crystal Chandelier Rental",
+        "category": "Lighting",
+        "shopLink": "https://luxury-rentals.com/chandeliers",
+        "price": 200,
+        "image": "/images/crystal-chandelier.jpg"
+      },
+      {
+        "name": "Vintage Movie Posters",
+        "category": "Wall Decor",
+        "shopLink": "https://hollywood.com/vintage-posters",
+        "price": 35,
+        "image": "/images/vintage-posters.jpg"
+      }
+    ],
+    "playlist": {
+      "name": "Golden Age Classics",
+      "description": "Timeless jazz and big band hits from Hollywood's golden era",
+      "duration": "4h 15m",
+      "songs": ["Fly Me to the Moon", "The Way You Look Tonight", "Cheek to Cheek", "Singin' in the Rain"],
+      "spotifyLink": "https://open.spotify.com/playlist/golden-age-classics"
+    },
+    "menuItems": [
+      {
+        "name": "Classic Shrimp Cocktail",
+        "type": "Appetizer",
+        "recipeLink": "https://recipe.com/shrimp-cocktail",
+        "servings": 50,
+        "dietaryTags": ["Classic", "Elegant"]
+      },
+      {
+        "name": "Beef Wellington Bites",
+        "type": "Main Course",
+        "recipeLink": "https://recipe.com/wellington-bites",
+        "servings": 50,
+        "dietaryTags": ["Luxury", "Sophisticated"]
+      },
+      {
+        "name": "Classic Martini Bar",
+        "type": "Beverage",
+        "recipeLink": "https://cocktails.com/classic-martinis",
+        "servings": 50,
+        "dietaryTags": ["Classic", "Alcoholic"]
+      },
+      {
+        "name": "Champagne Tower Cake",
+        "type": "Dessert",
+        "recipeLink": "https://recipe.com/champagne-cake",
+        "servings": 50,
+        "dietaryTags": ["Elegant", "Celebration"]
+      }
+    ],
+    "activities": [
+      {
+        "name": "Red Carpet Photo Shoot",
+        "description": "Professional photographer captures glamorous moments",
+        "duration": "Throughout event",
+        "participants": "All guests"
+      },
+      {
+        "name": "Classic Hollywood Trivia",
+        "description": "Test your knowledge of golden age movies and stars",
+        "duration": "30 minutes",
+        "participants": "Teams of 4-6"
+      },
+      {
+        "name": "Swing Dancing Lesson",
+        "description": "Learn classic dance moves from the era",
+        "duration": "45 minutes",
+        "participants": "Couples or singles"
+      }
+    ]
+  },
+  {
+    "id": "space-odyssey",
+    "name": "Space Odyssey Adventure",
+    "description": "Blast off into an intergalactic celebration with cosmic décor, space-themed activities, and out-of-this-world fun.",
+    "colorScheme": ["#0B1426", "#4A90E2", "#7B68EE", "#FF6B9D", "#00CED1"],
+    "decorItems": [
+      {
+        "name": "Galaxy Projection Lights",
+        "category": "Lighting",
+        "shopLink": "https://space-decor.com/galaxy-lights",
+        "price": 75,
+        "image": "/images/galaxy-lights.jpg"
+      },
+      {
+        "name": "Astronaut Photo Booth Props",
+        "category": "Photo Booth",
+        "shopLink": "https://party.com/astronaut-props",
+        "price": 28,
+        "image": "/images/astronaut-props.jpg"
+      },
+      {
+        "name": "Metallic Space Balloons",
+        "category": "Balloons",
+        "shopLink": "https://balloons.com/metallic-space",
+        "price": 35,
+        "image": "/images/space-balloons.jpg"
+      },
+      {
+        "name": "Solar System Hanging Decor",
+        "category": "Ceiling Decor",
+        "shopLink": "https://education.com/solar-system-decor",
+        "price": 55,
+        "image": "/images/solar-system-decor.jpg"
+      }
+    ],
+    "playlist": {
+      "name": "Cosmic Dance Party",
+      "description": "Electronic and space-themed music for an otherworldly experience",
+      "duration": "2h 45m",
+      "songs": ["Space Oddity", "Fly Me to the Moon", "Intergalactic", "Mr. Blue Sky"],
+      "spotifyLink": "https://open.spotify.com/playlist/cosmic-dance"
+    },
+    "menuItems": [
+      {
+        "name": "Galaxy Smoothie Bowls",
+        "type": "Breakfast/Snack",
+        "recipeLink": "https://recipe.com/galaxy-smoothie",
+        "servings": 25,
+        "dietaryTags": ["Colorful", "Healthy", "Instagram-worthy"]
+      },
+      {
+        "name": "Rocket Ship Sandwiches",
+        "type": "Main Course",
+        "recipeLink": "https://recipe.com/rocket-sandwiches",
+        "servings": 25,
+        "dietaryTags": ["Kid-Friendly", "Creative"]
+      },
+      {
+        "name": "Asteroid Meatballs",
+        "type": "Appetizer",
+        "recipeLink": "https://recipe.com/asteroid-meatballs",
+        "servings": 25,
+        "dietaryTags": ["Fun", "Protein"]
+      },
+      {
+        "name": "Moon Rock Candy",
+        "type": "Dessert",
+        "recipeLink": "https://recipe.com/moon-rock-candy",
+        "servings": 25,
+        "dietaryTags": ["Sweet", "Space-themed"]
+      }
+    ],
+    "activities": [
+      {
+        "name": "Build Your Own Rocket",
+        "description": "STEM activity using recyclable materials to create model rockets",
+        "duration": "45 minutes",
+        "participants": "Kids and adults"
+      },
+      {
+        "name": "Space Trivia Challenge",
+        "description": "Test your knowledge of astronomy and space exploration",
+        "duration": "25 minutes",
+        "participants": "Teams of 3-5"
+      },
+      {
+        "name": "Alien Dance Battle",
+        "description": "Create and perform your best alien dance moves",
+        "duration": "20 minutes",
+        "participants": "All ages"
+      },
+      {
+        "name": "Constellation Making",
+        "description": "Create glow-in-the-dark constellation art",
+        "duration": "30 minutes",
+        "participants": "Creative activity for all"
+      }
+    ]
+  }
+]
