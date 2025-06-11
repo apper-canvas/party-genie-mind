@@ -133,9 +133,9 @@ const PartyDetails = () => {
                   </div>
                   <div className="flex items-center space-x-1">
                     <ApperIcon name="Users" className="w-4 h-4" />
-                    <span>{party.guestCount} guests</span>
+<span>{party.guestCount} guests</span>
                   </div>
-<div className="flex items-center space-x-1">
+                  <div className="flex items-center space-x-1">
                     <ApperIcon name="DollarSign" className="w-4 h-4" />
                     <span>{party.currency === 'INR' ? '₹' : '$'}{party.budget} budget</span>
                   </div>
@@ -275,15 +275,15 @@ const PartyDetails = () => {
                       key={index}
                       initial={{ opacity: 0, x: -20 }}
                       animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: index * 0.1 }}
+transition={{ delay: index * 0.1 }}
                       className="bg-gray-50 rounded-xl p-6"
                     >
                       <div className="flex items-center justify-between mb-4">
                         <h4 className="font-medium text-gray-900">{item.name}</h4>
-                        <span className="text-primary font-bold">${item.price}</span>
+                        <span className="text-primary font-bold">{party.currency === 'INR' ? '₹' : '$'}{item.price}</span>
                       </div>
                       <p className="text-sm text-gray-600 mb-4">{item.category}</p>
-                      <motion.a
+<motion.a
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         href={item.shopLink}

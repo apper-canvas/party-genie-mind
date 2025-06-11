@@ -227,13 +227,13 @@ const MyParties = () => {
                   </div>
                 </div>
               )}
-
-              <div className="space-y-2 text-xs text-gray-500 mb-4">
+<div className="space-y-2 text-xs text-gray-500 mb-4">
                 <div className="flex items-center justify-between">
                   <span>👥 {party.guestCount} guests</span>
-                  <span>💰 ${party.budget} budget</span>
+                  <span>💰 {party.currency === 'INR' ? '₹' : '$'}{party.budget} budget</span>
                 </div>
                 <div className="flex items-center justify-between">
+                  <span>📍 {party.venue}</span>
                   <span>📍 {party.venue}</span>
                   {party.savedAt && (
                     <span>
