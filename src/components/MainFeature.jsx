@@ -25,7 +25,7 @@ const [partyData, setPartyData] = useState({
 const occasions = [
     'Birthday Party', 'Wedding', 'Baby Shower', 'Graduation', 'Anniversary',
     'Diwali', 'Holi', 'Karva Chauth', 'Ganesh Chaturthi', 'Dussehra',
-    'Corporate Event', 'Housewarming', 'Retirement', 'Engagement'
+    'Corporate Event', 'Housewarming', 'Kitty Party', 'Retirement', 'Engagement'
   ];
 
   const ageRangeOptions = [
