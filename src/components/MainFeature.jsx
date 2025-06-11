@@ -7,12 +7,13 @@ import themeService from '../services/api/themeService';
 
 const MainFeature = () => {
   const [currentStep, setCurrentStep] = useState(1);
-  const [partyData, setPartyData] = useState({
+const [partyData, setPartyData] = useState({
     occasion: '',
     date: '',
     guestCount: 10,
     ageRanges: [],
     budget: 500,
+    currency: 'USD',
     venue: '',
     preferences: ''
   });
@@ -201,10 +202,20 @@ const MainFeature = () => {
                 </div>
               </div>
 
-              <div>
+<div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Budget: ${partyData.budget}
+                  Budget: {partyData.currency === 'INR' ? '₹' : '$'}{partyData.budget}
                 </label>
+                <div className="flex space-x-4 mb-2">
+                  <select
+                    value={partyData.currency}
+                    onChange={(e) => setPartyData({ ...partyData, currency: e.target.value })}
+                    className="px-3 py-2 bg-gray-50 border-2 border-gray-200 rounded-lg focus:border-primary focus:bg-white transition-all duration-200"
+                  >
+                    <option value="USD">USD ($)</option>
+                    <option value="INR">INR (₹)</option>
+                  </select>
+                </div>
                 <input
                   type="range"
                   min="100"
@@ -215,8 +226,8 @@ const MainFeature = () => {
                   className="w-full h-2 bg-gradient-to-r from-accent to-primary rounded-lg appearance-none cursor-pointer"
                 />
                 <div className="flex justify-between text-xs text-gray-500 mt-1">
-                  <span>$100</span>
-                  <span>$5000+</span>
+                  <span>{partyData.currency === 'INR' ? '₹' : '$'}100</span>
+                  <span>{partyData.currency === 'INR' ? '₹' : '$'}5000+</span>
                 </div>
               </div>
 

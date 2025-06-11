@@ -135,9 +135,9 @@ const PartyDetails = () => {
                     <ApperIcon name="Users" className="w-4 h-4" />
                     <span>{party.guestCount} guests</span>
                   </div>
-                  <div className="flex items-center space-x-1">
+<div className="flex items-center space-x-1">
                     <ApperIcon name="DollarSign" className="w-4 h-4" />
-                    <span>${party.budget} budget</span>
+                    <span>{party.currency === 'INR' ? '₹' : '$'}{party.budget} budget</span>
                   </div>
                   <div className="flex items-center space-x-1">
                     <ApperIcon name="MapPin" className="w-4 h-4" />
