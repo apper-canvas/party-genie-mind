@@ -1,286 +1,280 @@
 [
   {
-    "id": "tropical-paradise",
-    "name": "Tropical Paradise",
-    "description": "Escape to a tropical oasis with vibrant colors, exotic flowers, and island vibes that transport your guests to paradise.",
-    "colorScheme": ["#FF6B35", "#F7931E", "#FFD23F", "#06FFA5", "#118AB2"],
+    "id": "bollywood-glamour",
+    "name": "Bollywood Glamour",
+    "description": "Step into the magical world of Bollywood with glittering decorations, vibrant colors, and the glamour of Indian cinema.",
+    "colorScheme": ["#FFD700", "#FF6B35", "#DC143C", "#4169E1", "#50C878"],
     "decorItems": [
       {
-        "name": "Tropical Flower Leis",
-        "category": "Party Favors",
-        "shopLink": "https://amazon.com/tropical-leis",
-        "price": 25,
-        "image": "/images/tropical-leis.jpg"
+        "name": "Golden Marigold Garlands",
+        "category": "Floral Decor",
+        "shopLink": "https://indiandecor.com/marigold-garlands",
+        "price": 150,
+        "image": "/images/marigold-garlands.jpg"
       },
       {
-        "name": "Palm Leaf Table Runners",
-        "category": "Table Decor",
-        "shopLink": "https://partystore.com/palm-runners",
-        "price": 18,
-        "image": "/images/palm-runners.jpg"
+        "name": "Bollywood Photo Booth Props",
+        "category": "Photo Booth",
+        "shopLink": "https://party.com/bollywood-props",
+        "price": 800,
+        "image": "/images/bollywood-props.jpg"
       },
       {
-        "name": "Tiki Torch Set",
+        "name": "Crystal Jhoomar Chandeliers",
         "category": "Lighting",
-        "shopLink": "https://outdoor.com/tiki-torches",
-        "price": 65,
-        "image": "/images/tiki-torches.jpg"
+        "shopLink": "https://luxury-rentals.com/jhoomars",
+        "price": 2500,
+        "image": "/images/crystal-jhoomar.jpg"
       },
       {
-        "name": "Pineapple Centerpieces",
+        "name": "Peacock Feather Centerpieces",
         "category": "Centerpieces",
-        "shopLink": "https://decor.com/pineapple-center",
-        "price": 32,
-        "image": "/images/pineapple-center.jpg"
+        "shopLink": "https://indianart.com/peacock-centers",
+        "price": 450,
+        "image": "/images/peacock-centers.jpg"
       }
     ],
     "playlist": {
-      "name": "Island Paradise Vibes",
-      "description": "Tropical and reggae hits that bring the beach party atmosphere",
-      "duration": "3h 20m",
-      "songs": ["Three Little Birds", "Kokomo", "Margaritaville", "Red Red Wine"],
-      "spotifyLink": "https://open.spotify.com/playlist/island-paradise"
+      "name": "Bollywood Dance Hits",
+      "description": "The biggest Bollywood dance numbers and romantic melodies",
+      "duration": "4h 30m",
+      "songs": ["Jai Ho", "Nagada Sang Dhol", "Gallan Goodiyaan", "Tum Hi Ho"],
+      "spotifyLink": "https://open.spotify.com/playlist/bollywood-hits"
     },
     "menuItems": [
       {
-        "name": "Tropical Fruit Kabobs",
+        "name": "Samosa Chaat Station",
         "type": "Appetizer",
-        "recipeLink": "https://recipe.com/fruit-kabobs",
-        "servings": 30,
-        "dietaryTags": ["Healthy", "Vegetarian", "Colorful"]
+        "recipeLink": "https://recipe.com/samosa-chaat",
+        "servings": 50,
+        "dietaryTags": ["Spicy", "Vegetarian", "Popular"]
       },
       {
-        "name": "Coconut Shrimp",
+        "name": "Butter Chicken & Naan",
         "type": "Main Course",
-        "recipeLink": "https://recipe.com/coconut-shrimp",
-        "servings": 30,
-        "dietaryTags": ["Tropical", "Crispy"]
+        "recipeLink": "https://recipe.com/butter-chicken",
+        "servings": 50,
+        "dietaryTags": ["Creamy", "Mild Spice", "Classic"]
       },
       {
-        "name": "Mango Smoothie Bar",
+        "name": "Mango Lassi Bar",
         "type": "Beverage",
-        "recipeLink": "https://recipe.com/mango-smoothies",
-        "servings": 30,
-        "dietaryTags": ["Refreshing", "Customizable"]
+        "recipeLink": "https://recipe.com/mango-lassi",
+        "servings": 50,
+        "dietaryTags": ["Refreshing", "Traditional", "Sweet"]
       },
       {
-        "name": "Pina Colada Cake",
+        "name": "Gulab Jamun Tower",
         "type": "Dessert",
-        "recipeLink": "https://recipe.com/pina-colada-cake",
-        "servings": 30,
-        "dietaryTags": ["Tropical", "Decadent"]
+        "recipeLink": "https://recipe.com/gulab-jamun",
+        "servings": 50,
+        "dietaryTags": ["Sweet", "Traditional", "Celebration"]
       }
     ],
     "activities": [
       {
-        "name": "Limbo Contest",
-        "description": "Classic beach party game with tropical music",
-        "duration": "15 minutes",
+        "name": "Bollywood Dance Workshop",
+        "description": "Learn iconic Bollywood dance moves with a professional instructor",
+        "duration": "45 minutes",
         "participants": "All ages"
       },
       {
-        "name": "Tropical Flower Crown Making",
-        "description": "DIY craft station to create beautiful flower crowns",
-        "duration": "30 minutes",
-        "participants": "All guests"
-      },
-      {
-        "name": "Island Dance Off",
-        "description": "Fun dance competition with Caribbean moves",
-        "duration": "20 minutes",
-        "participants": "Teams or individuals"
-      }
-    ]
-  },
-  {
-    "id": "vintage-hollywood",
-    "name": "Vintage Hollywood Glamour",
-    "description": "Step into the golden age of Hollywood with elegant black and gold décor, classic cocktails, and old-school glamour.",
-    "colorScheme": ["#000000", "#FFD700", "#C0C0C0", "#800020", "#F5F5DC"],
-    "decorItems": [
-      {
-        "name": "Art Deco Backdrop",
-        "category": "Photo Booth",
-        "shopLink": "https://vintage.com/art-deco-backdrop",
-        "price": 85,
-        "image": "/images/art-deco-backdrop.jpg"
-      },
-      {
-        "name": "Gold Feather Centerpieces",
-        "category": "Table Decor",
-        "shopLink": "https://glamour.com/feather-centers",
-        "price": 45,
-        "image": "/images/feather-centers.jpg"
-      },
-      {
-        "name": "Crystal Chandelier Rental",
-        "category": "Lighting",
-        "shopLink": "https://luxury-rentals.com/chandeliers",
-        "price": 200,
-        "image": "/images/crystal-chandelier.jpg"
-      },
-      {
-        "name": "Vintage Movie Posters",
-        "category": "Wall Decor",
-        "shopLink": "https://hollywood.com/vintage-posters",
-        "price": 35,
-        "image": "/images/vintage-posters.jpg"
-      }
-    ],
-    "playlist": {
-      "name": "Golden Age Classics",
-      "description": "Timeless jazz and big band hits from Hollywood's golden era",
-      "duration": "4h 15m",
-      "songs": ["Fly Me to the Moon", "The Way You Look Tonight", "Cheek to Cheek", "Singin' in the Rain"],
-      "spotifyLink": "https://open.spotify.com/playlist/golden-age-classics"
-    },
-    "menuItems": [
-      {
-        "name": "Classic Shrimp Cocktail",
-        "type": "Appetizer",
-        "recipeLink": "https://recipe.com/shrimp-cocktail",
-        "servings": 50,
-        "dietaryTags": ["Classic", "Elegant"]
-      },
-      {
-        "name": "Beef Wellington Bites",
-        "type": "Main Course",
-        "recipeLink": "https://recipe.com/wellington-bites",
-        "servings": 50,
-        "dietaryTags": ["Luxury", "Sophisticated"]
-      },
-      {
-        "name": "Classic Martini Bar",
-        "type": "Beverage",
-        "recipeLink": "https://cocktails.com/classic-martinis",
-        "servings": 50,
-        "dietaryTags": ["Classic", "Alcoholic"]
-      },
-      {
-        "name": "Champagne Tower Cake",
-        "type": "Dessert",
-        "recipeLink": "https://recipe.com/champagne-cake",
-        "servings": 50,
-        "dietaryTags": ["Elegant", "Celebration"]
-      }
-    ],
-    "activities": [
-      {
-        "name": "Red Carpet Photo Shoot",
-        "description": "Professional photographer captures glamorous moments",
+        "name": "Mehendi Art Station",
+        "description": "Traditional henna art designs for hands and arms",
         "duration": "Throughout event",
         "participants": "All guests"
       },
       {
-        "name": "Classic Hollywood Trivia",
-        "description": "Test your knowledge of golden age movies and stars",
+        "name": "Bollywood Movie Quiz",
+        "description": "Test your knowledge of Hindi cinema and stars",
         "duration": "30 minutes",
         "participants": "Teams of 4-6"
-      },
-      {
-        "name": "Swing Dancing Lesson",
-        "description": "Learn classic dance moves from the era",
-        "duration": "45 minutes",
-        "participants": "Couples or singles"
       }
     ]
   },
   {
-    "id": "space-odyssey",
-    "name": "Space Odyssey Adventure",
-    "description": "Blast off into an intergalactic celebration with cosmic décor, space-themed activities, and out-of-this-world fun.",
-    "colorScheme": ["#0B1426", "#4A90E2", "#7B68EE", "#FF6B9D", "#00CED1"],
+    "id": "royal-rajasthani",
+    "name": "Royal Rajasthani Wedding",
+    "description": "Experience the grandeur of Rajasthani royalty with rich fabrics, ornate decorations, and majestic traditional elements.",
+    "colorScheme": ["#800020", "#FFD700", "#4169E1", "#FF6B35", "#8B4513"],
     "decorItems": [
       {
-        "name": "Galaxy Projection Lights",
-        "category": "Lighting",
-        "shopLink": "https://space-decor.com/galaxy-lights",
-        "price": 75,
-        "image": "/images/galaxy-lights.jpg"
-      },
-      {
-        "name": "Astronaut Photo Booth Props",
-        "category": "Photo Booth",
-        "shopLink": "https://party.com/astronaut-props",
-        "price": 28,
-        "image": "/images/astronaut-props.jpg"
-      },
-      {
-        "name": "Metallic Space Balloons",
-        "category": "Balloons",
-        "shopLink": "https://balloons.com/metallic-space",
-        "price": 35,
-        "image": "/images/space-balloons.jpg"
-      },
-      {
-        "name": "Solar System Hanging Decor",
+        "name": "Rajasthani Umbrellas",
         "category": "Ceiling Decor",
-        "shopLink": "https://education.com/solar-system-decor",
-        "price": 55,
-        "image": "/images/solar-system-decor.jpg"
+        "shopLink": "https://rajasthan-art.com/umbrellas",
+        "price": 1200,
+        "image": "/images/rajasthani-umbrellas.jpg"
+      },
+      {
+        "name": "Palace Throne Chairs",
+        "category": "Furniture",
+        "shopLink": "https://royal-rentals.com/throne-chairs",
+        "price": 3000,
+        "image": "/images/throne-chairs.jpg"
+      },
+      {
+        "name": "Brass Diyas & Lanterns",
+        "category": "Lighting",
+        "shopLink": "https://traditional.com/brass-diyas",
+        "price": 800,
+        "image": "/images/brass-diyas.jpg"
+      },
+      {
+        "name": "Elephant Statue Entrance",
+        "category": "Entrance Decor",
+        "shopLink": "https://majestic.com/elephant-statues",
+        "price": 2200,
+        "image": "/images/elephant-entrance.jpg"
       }
     ],
     "playlist": {
-      "name": "Cosmic Dance Party",
-      "description": "Electronic and space-themed music for an otherworldly experience",
-      "duration": "2h 45m",
-      "songs": ["Space Oddity", "Fly Me to the Moon", "Intergalactic", "Mr. Blue Sky"],
-      "spotifyLink": "https://open.spotify.com/playlist/cosmic-dance"
+      "name": "Royal Classical Collection",
+      "description": "Classical Indian music and traditional wedding songs",
+      "duration": "5h 0m",
+      "songs": ["Meera Bhajan", "Rajasthani Folk", "Shehnai Melodies", "Classical Ragas"],
+      "spotifyLink": "https://open.spotify.com/playlist/royal-classical"
     },
     "menuItems": [
       {
-        "name": "Galaxy Smoothie Bowls",
-        "type": "Breakfast/Snack",
-        "recipeLink": "https://recipe.com/galaxy-smoothie",
-        "servings": 25,
-        "dietaryTags": ["Colorful", "Healthy", "Instagram-worthy"]
-      },
-      {
-        "name": "Rocket Ship Sandwiches",
+        "name": "Dal Baati Churma",
         "type": "Main Course",
-        "recipeLink": "https://recipe.com/rocket-sandwiches",
-        "servings": 25,
-        "dietaryTags": ["Kid-Friendly", "Creative"]
+        "recipeLink": "https://recipe.com/dal-baati-churma",
+        "servings": 100,
+        "dietaryTags": ["Traditional", "Rajasthani", "Vegetarian"]
       },
       {
-        "name": "Asteroid Meatballs",
-        "type": "Appetizer",
-        "recipeLink": "https://recipe.com/asteroid-meatballs",
-        "servings": 25,
-        "dietaryTags": ["Fun", "Protein"]
+        "name": "Laal Maas",
+        "type": "Main Course",
+        "recipeLink": "https://recipe.com/laal-maas",
+        "servings": 100,
+        "dietaryTags": ["Spicy", "Royal", "Non-Vegetarian"]
       },
       {
-        "name": "Moon Rock Candy",
+        "name": "Kesariya Thandai",
+        "type": "Beverage",
+        "recipeLink": "https://recipe.com/kesariya-thandai",
+        "servings": 100,
+        "dietaryTags": ["Traditional", "Festive", "Cool"]
+      },
+      {
+        "name": "Ghevar & Rabri",
         "type": "Dessert",
-        "recipeLink": "https://recipe.com/moon-rock-candy",
-        "servings": 25,
-        "dietaryTags": ["Sweet", "Space-themed"]
+        "recipeLink": "https://recipe.com/ghevar-rabri",
+        "servings": 100,
+        "dietaryTags": ["Sweet", "Traditional", "Royal"]
       }
     ],
     "activities": [
       {
-        "name": "Build Your Own Rocket",
-        "description": "STEM activity using recyclable materials to create model rockets",
+        "name": "Rajasthani Folk Dance",
+        "description": "Traditional Ghoomar and Kalbeliya dance performances",
+        "duration": "60 minutes",
+        "participants": "Cultural performers"
+      },
+      {
+        "name": "Turban Tying Competition",
+        "description": "Learn to tie traditional Rajasthani turbans",
+        "duration": "30 minutes",
+        "participants": "All guests"
+      },
+      {
+        "name": "Royal Photo Session",
+        "description": "Professional photos in traditional royal attire",
+        "duration": "Throughout event",
+        "participants": "All guests"
+      }
+    ]
+  },
+  {
+    "id": "diwali-festival",
+    "name": "Diwali Festival of Lights",
+    "description": "Celebrate the festival of lights with beautiful diyas, rangoli patterns, and the warmth of traditional Diwali festivities.",
+    "colorScheme": ["#FFD700", "#FF6B35", "#DC143C", "#4169E1", "#800080"],
+    "decorItems": [
+      {
+        "name": "LED Diya String Lights",
+        "category": "Lighting",
+        "shopLink": "https://festival-lights.com/led-diyas",
+        "price": 600,
+        "image": "/images/led-diyas.jpg"
+      },
+      {
+        "name": "Rangoli Stencil Kits",
+        "category": "Floor Decor",
+        "shopLink": "https://rangoli-art.com/stencil-kits",
+        "price": 300,
+        "image": "/images/rangoli-stencils.jpg"
+      },
+      {
+        "name": "Floating Flower Bowls",
+        "category": "Centerpieces",
+        "shopLink": "https://diwali-decor.com/flower-bowls",
+        "price": 450,
+        "image": "/images/floating-flowers.jpg"
+      },
+      {
+        "name": "Lakshmi Ganesha Backdrop",
+        "category": "Religious Decor",
+        "shopLink": "https://spiritual.com/lakshmi-ganesha",
+        "price": 1000,
+        "image": "/images/lakshmi-ganesha.jpg"
+      }
+    ],
+    "playlist": {
+      "name": "Diwali Celebration Songs",
+      "description": "Traditional and modern Diwali songs and bhajans",
+      "duration": "3h 20m",
+      "songs": ["Lakshmi Aarti", "Deepavali Raag", "Festival of Lights", "Ganesha Bhajan"],
+      "spotifyLink": "https://open.spotify.com/playlist/diwali-songs"
+    },
+    "menuItems": [
+      {
+        "name": "Mixed Mithai Platter",
+        "type": "Dessert",
+        "recipeLink": "https://recipe.com/diwali-mithai",
+        "servings": 75,
+        "dietaryTags": ["Sweet", "Traditional", "Festive"]
+      },
+      {
+        "name": "Aloo Tikki Chaat",
+        "type": "Appetizer",
+        "recipeLink": "https://recipe.com/aloo-tikki",
+        "servings": 75,
+        "dietaryTags": ["Spicy", "Street Food", "Vegetarian"]
+      },
+      {
+        "name": "Masala Chai Station",
+        "type": "Beverage",
+        "recipeLink": "https://recipe.com/masala-chai",
+        "servings": 75,
+        "dietaryTags": ["Traditional", "Warm", "Spiced"]
+      },
+      {
+        "name": "Dry Fruit Barfi",
+        "type": "Dessert",
+        "recipeLink": "https://recipe.com/dry-fruit-barfi",
+        "servings": 75,
+        "dietaryTags": ["Healthy", "Rich", "Traditional"]
+      }
+    ],
+    "activities": [
+      {
+        "name": "Diya Painting Workshop",
+        "description": "Decorate traditional clay lamps with beautiful designs",
         "duration": "45 minutes",
-        "participants": "Kids and adults"
-      },
-      {
-        "name": "Space Trivia Challenge",
-        "description": "Test your knowledge of astronomy and space exploration",
-        "duration": "25 minutes",
-        "participants": "Teams of 3-5"
-      },
-      {
-        "name": "Alien Dance Battle",
-        "description": "Create and perform your best alien dance moves",
-        "duration": "20 minutes",
         "participants": "All ages"
       },
       {
-        "name": "Constellation Making",
-        "description": "Create glow-in-the-dark constellation art",
+        "name": "Rangoli Making Contest",
+        "description": "Create beautiful floor art with colorful patterns",
+        "duration": "60 minutes",
+        "participants": "Teams or individuals"
+      },
+      {
+        "name": "Lakshmi Puja Ceremony",
+        "description": "Traditional prayer ceremony for prosperity",
         "duration": "30 minutes",
-        "participants": "Creative activity for all"
+        "participants": "All guests"
       }
     ]
   }

@@ -10,8 +10,8 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
   margin: 0;
-  min-height: 100vh;
-  background-color: #FFF5F5;
+min-height: 100vh;
+  background-color: #FEF7F0;
 }
 
 /* Prevent horizontal overflow */
@@ -46,10 +46,10 @@ body {
   animation: confetti 1s ease-out forwards;
 }
 
-/* Festive background pattern */
+/* Indian festive background pattern */
 .festive-bg {
-  background-image: radial-gradient(circle at 25% 25%, #FFE66D 2px, transparent 2px),
-                    radial-gradient(circle at 75% 75%, #4ECDC4 2px, transparent 2px);
+  background-image: radial-gradient(circle at 25% 25%, #FF6B35 2px, transparent 2px),
+                    radial-gradient(circle at 75% 75%, #50C878 2px, transparent 2px);
   background-size: 50px 50px;
   background-position: 0 0, 25px 25px;
 }

@@ -1,282 +1,282 @@
 [
   {
-    "id": "enchanted-fairy-tale",
-    "name": "Enchanted Fairy Tale",
-    "category": "birthday",
-    "description": "Transform your space into a magical fairy tale kingdom with whimsical decorations, fairy lights, and storybook charm.",
-    "colorScheme": ["#FFB6C1", "#DDA0DD", "#98FB98", "#F0E68C", "#E6E6FA"],
-    "decorItems": [
-      {
-        "name": "Fairy Light Canopy",
-        "category": "Lighting",
-        "shopLink": "https://fairytale.com/light-canopy",
-        "price": 65,
-        "image": "/images/fairy-canopy.jpg"
-      },
-      {
-        "name": "Enchanted Forest Backdrop",
-        "category": "Photo Booth",
-        "shopLink": "https://magical.com/forest-backdrop",
-        "price": 45,
-        "image": "/images/forest-backdrop.jpg"
-      }
-    ],
-    "playlist": {
-      "name": "Fairy Tale Magic",
-      "description": "Magical and whimsical songs that bring fairy tales to life",
-      "duration": "2h 30m",
-      "songs": ["A Whole New World", "Be Our Guest", "Bibbidi-Bobbidi-Boo"],
-      "spotifyLink": "https://open.spotify.com/playlist/fairy-tale-magic"
-    },
-    "menuItems": [
-      {
-        "name": "Magic Potion Drinks",
-        "type": "Beverage",
-        "recipeLink": "https://recipe.com/magic-potions",
-        "servings": 20,
-        "dietaryTags": ["Colorful", "Kid-Friendly"]
-      }
-    ],
-    "activities": [
-      {
-        "name": "Fairy Crown Making",
-        "description": "Craft beautiful crowns fit for fairy tale royalty",
-        "duration": "30 minutes",
-        "participants": "All ages"
-      }
-    ]
-  },
-  {
-    "id": "boho-chic-celebration",
-    "name": "Boho Chic Celebration",
-    "category": "wedding",
-    "description": "A free-spirited celebration with natural textures, warm earth tones, and relaxed bohemian elegance.",
-    "colorScheme": ["#D2B48C", "#F4A460", "#CD853F", "#DEB887", "#BC8F8F"],
-    "decorItems": [
-      {
-        "name": "Macrame Wall Hangings",
-        "category": "Wall Decor",
-        "shopLink": "https://boho.com/macrame-hangings",
-        "price": 55,
-        "image": "/images/macrame-wall.jpg"
-      },
-      {
-        "name": "Pampas Grass Arrangements",
-        "category": "Centerpieces",
-        "shopLink": "https://natural.com/pampas-grass",
-        "price": 38,
-        "image": "/images/pampas-grass.jpg"
-      }
-    ],
-    "playlist": {
-      "name": "Boho Acoustic Vibes",
-      "description": "Relaxed acoustic and indie folk perfect for bohemian celebrations",
-      "duration": "3h 45m",
-      "songs": ["Ho Hey", "Home", "Riptide", "Budapest"],
-      "spotifyLink": "https://open.spotify.com/playlist/boho-acoustic"
-    },
-    "menuItems": [
-      {
-        "name": "Artisan Cheese Board",
-        "type": "Appetizer",
-        "recipeLink": "https://recipe.com/artisan-cheese",
-        "servings": 50,
-        "dietaryTags": ["Elegant", "Vegetarian"]
-      }
-    ],
-    "activities": [
-      {
-        "name": "Flower Crown Workshop",
-        "description": "Create beautiful bohemian flower crowns",
-        "duration": "45 minutes",
-        "participants": "All guests"
-      }
-    ]
-  },
-  {
-    "id": "winter-wonderland",
-    "name": "Winter Wonderland",
-    "category": "holiday",
-    "description": "Create a magical winter scene with sparkly snow, icy blues, and cozy warm touches for the perfect seasonal celebration.",
-    "colorScheme": ["#B0E0E6", "#E0FFFF", "#F0F8FF", "#C0C0C0", "#4682B4"],
-    "decorItems": [
-      {
-        "name": "Snowflake String Lights",
-        "category": "Lighting",
-        "shopLink": "https://winter.com/snowflake-lights",
-        "price": 42,
-        "image": "/images/snowflake-lights.jpg"
-      },
-      {
-        "name": "Ice Crystal Centerpieces",
-        "category": "Table Decor",
-        "shopLink": "https://frozen.com/ice-crystals",
-        "price": 35,
-        "image": "/images/ice-crystals.jpg"
-      }
-    ],
-    "playlist": {
-      "name": "Winter Magic Playlist",
-      "description": "Cozy winter songs and holiday classics for a magical atmosphere",
-      "duration": "4h 0m",
-      "songs": ["Let it Snow", "Winter Wonderland", "Sleigh Ride", "White Christmas"],
-      "spotifyLink": "https://open.spotify.com/playlist/winter-magic"
-    },
-    "menuItems": [
-      {
-        "name": "Hot Chocolate Bar",
-        "type": "Beverage",
-        "recipeLink": "https://recipe.com/hot-chocolate-bar",
-        "servings": 40,
-        "dietaryTags": ["Warm", "Customizable", "Cozy"]
-      }
-    ],
-    "activities": [
-      {
-        "name": "Snowflake Craft Station",
-        "description": "Create beautiful paper snowflakes and winter art",
-        "duration": "35 minutes",
-        "participants": "All ages"
-      }
-    ]
-  },
-  {
-    "id": "safari-adventure",
-    "name": "Safari Adventure",
-    "category": "kids",
-    "description": "Go on a wild adventure with jungle animals, safari decorations, and explorer activities perfect for young adventurers.",
-    "colorScheme": ["#8FBC8F", "#DEB887", "#CD853F", "#F4A460", "#228B22"],
-    "decorItems": [
-      {
-        "name": "Jungle Animal Cutouts",
-        "category": "Wall Decor",
-        "shopLink": "https://safari.com/animal-cutouts",
-        "price": 30,
-        "image": "/images/animal-cutouts.jpg"
-      },
-      {
-        "name": "Safari Hat Party Favors",
-        "category": "Party Favors",
-        "shopLink": "https://adventure.com/safari-hats",
-        "price": 25,
-        "image": "/images/safari-hats.jpg"
-      }
-    ],
-    "playlist": {
-      "name": "Safari Adventure Sounds",
-      "description": "Jungle sounds and adventurous music for safari exploration",
-      "duration": "2h 15m",
-      "songs": ["Circle of Life", "I Wanna Be Like You", "Hakuna Matata"],
-      "spotifyLink": "https://open.spotify.com/playlist/safari-adventure"
-    },
-    "menuItems": [
-      {
-        "name": "Animal Crackers Trail Mix",
-        "type": "Snack",
-        "recipeLink": "https://recipe.com/safari-trail-mix",
-        "servings": 15,
-        "dietaryTags": ["Kid-Friendly", "Portable"]
-      }
-    ],
-    "activities": [
-      {
-        "name": "Animal Safari Hunt",
-        "description": "Search for hidden toy animals around the party area",
-        "duration": "25 minutes",
-        "participants": "Kids 3-10"
-      }
-    ]
-  },
-  {
-    "id": "modern-minimalist",
-    "name": "Modern Minimalist",
-    "category": "corporate",
-    "description": "Clean, sophisticated design with neutral colors and elegant simplicity perfect for professional gatherings.",
-    "colorScheme": ["#FFFFFF", "#F5F5F5", "#E8E8E8", "#C0C0C0", "#808080"],
-    "decorItems": [
-      {
-        "name": "Geometric Centerpieces",
-        "category": "Table Decor",
-        "shopLink": "https://modern.com/geometric-centers",
-        "price": 45,
-        "image": "/images/geometric-centers.jpg"
-      },
-      {
-        "name": "Minimalist Signage",
-        "category": "Signage",
-        "shopLink": "https://professional.com/minimal-signs",
-        "price": 60,
-        "image": "/images/minimal-signs.jpg"
-      }
-    ],
-    "playlist": {
-      "name": "Modern Corporate Mix",
-      "description": "Subtle, professional background music for networking",
-      "duration": "3h 30m",
-      "songs": ["Weightless", "Clair de Lune", "Gymnopédie No. 1"],
-      "spotifyLink": "https://open.spotify.com/playlist/modern-corporate"
-    },
-    "menuItems": [
-      {
-        "name": "Artisan Canapés",
-        "type": "Appetizer",
-        "recipeLink": "https://recipe.com/artisan-canapes",
-        "servings": 60,
-        "dietaryTags": ["Elegant", "Professional"]
-      }
-    ],
-    "activities": [
-      {
-        "name": "Professional Networking",
-        "description": "Structured networking with conversation prompts",
-        "duration": "60 minutes",
-        "participants": "All attendees"
-      }
-    ]
-  },
-  {
-    "id": "retro-80s-party",
-    "name": "Radical 80s Throwback",
-    "category": "birthday",
-    "description": "Travel back to the totally awesome 80s with neon colors, classic hits, and retro vibes that'll make everyone dance.",
+    "id": "holi-color-festival",
+    "name": "Holi Color Festival",
+    "category": "festival",
+    "description": "Celebrate the festival of colors with vibrant gulal, traditional sweets, and joyful music that brings everyone together.",
     "colorScheme": ["#FF1493", "#00FFFF", "#FFD700", "#9370DB", "#FF69B4"],
     "decorItems": [
       {
-        "name": "Neon Light Display",
-        "category": "Lighting",
-        "shopLink": "https://retro.com/neon-lights",
-        "price": 85,
-        "image": "/images/neon-lights.jpg"
+        "name": "Organic Gulal Colors",
+        "category": "Activity Supplies",
+        "shopLink": "https://holi-colors.com/organic-gulal",
+        "price": 400,
+        "image": "/images/organic-gulal.jpg"
       },
       {
-        "name": "Disco Ball Set",
-        "category": "Decorations",
-        "shopLink": "https://party.com/disco-balls",
-        "price": 35,
-        "image": "/images/disco-balls.jpg"
+        "name": "Colorful Pichkari Set",
+        "category": "Water Guns",
+        "shopLink": "https://holi-fun.com/pichkari-set",
+        "price": 250,
+        "image": "/images/pichkari-set.jpg"
       }
     ],
     "playlist": {
-      "name": "80s Hit Machine",
-      "description": "The best hits from the decade that brought us everything awesome",
-      "duration": "3h 15m",
-      "songs": ["Don't Stop Believin'", "Sweet Child O' Mine", "Billie Jean", "Girls Just Want to Have Fun"],
-      "spotifyLink": "https://open.spotify.com/playlist/80s-hit-machine"
+      "name": "Holi Celebration Hits",
+      "description": "Energetic Holi songs and folk music for color play",
+      "duration": "2h 45m",
+      "songs": ["Rang Barse", "Holi Khele Raghuveera", "Balam Pichkari"],
+      "spotifyLink": "https://open.spotify.com/playlist/holi-hits"
     },
     "menuItems": [
       {
-        "name": "Retro Cocktail Bar",
-        "type": "Beverage",
-        "recipeLink": "https://cocktails.com/retro-drinks",
-        "servings": 40,
-        "dietaryTags": ["Classic", "Nostalgic"]
+        "name": "Gujiya & Thandai",
+        "type": "Traditional",
+        "recipeLink": "https://recipe.com/gujiya-thandai",
+        "servings": 30,
+        "dietaryTags": ["Sweet", "Festive", "Traditional"]
       }
     ],
     "activities": [
       {
-        "name": "80s Dance Contest",
-        "description": "Show off your best retro dance moves",
-        "duration": "30 minutes",
+        "name": "Color Play Competition",
+        "description": "Safe and fun color throwing games",
+        "duration": "90 minutes",
+        "participants": "All ages"
+      }
+    ]
+  },
+  {
+    "id": "traditional-indian-wedding",
+    "name": "Traditional Indian Wedding",
+    "category": "wedding",
+    "description": "A grand celebration with traditional rituals, beautiful decorations, and authentic Indian wedding customs.",
+    "colorScheme": ["#DC143C", "#FFD700", "#FF6B35", "#4169E1", "#50C878"],
+    "decorItems": [
+      {
+        "name": "Mandap Decoration Set",
+        "category": "Ceremony Decor",
+        "shopLink": "https://wedding-mandap.com/traditional-set",
+        "price": 5000,
+        "image": "/images/wedding-mandap.jpg"
+      },
+      {
+        "name": "Banana Leaf Decor",
+        "category": "Natural Decor",
+        "shopLink": "https://natural-wedding.com/banana-leaves",
+        "price": 300,
+        "image": "/images/banana-leaves.jpg"
+      }
+    ],
+    "playlist": {
+      "name": "Wedding Shehnai & Songs",
+      "description": "Traditional wedding music and romantic Bollywood songs",
+      "duration": "6h 0m",
+      "songs": ["Shehnai Ceremony", "Dulhan Hum Le Jayenge", "Mehndi Laga Ke Rakhna"],
+      "spotifyLink": "https://open.spotify.com/playlist/indian-wedding"
+    },
+    "menuItems": [
+      {
+        "name": "Traditional Thali",
+        "type": "Full Meal",
+        "recipeLink": "https://recipe.com/wedding-thali",
+        "servings": 200,
+        "dietaryTags": ["Complete", "Traditional", "Regional"]
+      }
+    ],
+    "activities": [
+      {
+        "name": "Mehendi Ceremony",
+        "description": "Traditional henna application with music and celebration",
+        "duration": "3 hours",
+        "participants": "Family and friends"
+      }
+    ]
+  },
+  {
+    "id": "diwali-celebration",
+    "name": "Diwali Celebration",
+    "category": "festival",
+    "description": "Festival of lights with diyas, rangoli, fireworks, and traditional sweets for a memorable Diwali party.",
+    "colorScheme": ["#FFD700", "#FF6B35", "#DC143C", "#4169E1", "#800080"],
+    "decorItems": [
+      {
+        "name": "Traditional Clay Diyas",
+        "category": "Lighting",
+        "shopLink": "https://diwali-lights.com/clay-diyas",
+        "price": 200,
+        "image": "/images/clay-diyas.jpg"
+      },
+      {
+        "name": "Sparkler Fireworks Set",
+        "category": "Fireworks",
+        "shopLink": "https://safe-fireworks.com/sparklers",
+        "price": 800,
+        "image": "/images/sparklers.jpg"
+      }
+    ],
+    "playlist": {
+      "name": "Diwali Devotional Mix",
+      "description": "Spiritual bhajans and festive Diwali songs",
+      "duration": "3h 30m",
+      "songs": ["Om Jai Jagdish Hare", "Lakshmi Aarti", "Deepavali Geet"],
+      "spotifyLink": "https://open.spotify.com/playlist/diwali-devotional"
+    },
+    "menuItems": [
+      {
+        "name": "Diwali Sweets Assortment",
+        "type": "Dessert",
+        "recipeLink": "https://recipe.com/diwali-sweets",
+        "servings": 50,
+        "dietaryTags": ["Sweet", "Traditional", "Festive"]
+      }
+    ],
+    "activities": [
+      {
+        "name": "Lakshmi Puja",
+        "description": "Traditional prayer ceremony for prosperity and blessings",
+        "duration": "45 minutes",
+        "participants": "All family members"
+      }
+    ]
+  },
+  {
+    "id": "bollywood-dance-party",
+    "name": "Bollywood Dance Party",
+    "category": "birthday",
+    "description": "High-energy Bollywood themed party with dance competitions, movie music, and colorful decorations.",
+    "colorScheme": ["#FF1493", "#00FFFF", "#FFD700", "#9370DB", "#FF69B4"],
+    "decorItems": [
+      {
+        "name": "Bollywood Movie Posters",
+        "category": "Wall Decor",
+        "shopLink": "https://bollywood-decor.com/movie-posters",
+        "price": 600,
+        "image": "/images/bollywood-posters.jpg"
+      },
+      {
+        "name": "Disco Ball with Indian Music",
+        "category": "Lighting",
+        "shopLink": "https://party-lights.com/bollywood-disco",
+        "price": 700,
+        "image": "/images/bollywood-disco.jpg"
+      }
+    ],
+    "playlist": {
+      "name": "Bollywood Dance Floor",
+      "description": "High-energy Bollywood dance tracks and party anthems",
+      "duration": "4h 0m",
+      "songs": ["Jai Ho", "Nagada Sang Dhol", "Gallan Goodiyaan", "Malhari"],
+      "spotifyLink": "https://open.spotify.com/playlist/bollywood-dance"
+    },
+    "menuItems": [
+      {
+        "name": "Mumbai Street Food",
+        "type": "Snacks",
+        "recipeLink": "https://recipe.com/mumbai-street-food",
+        "servings": 40,
+        "dietaryTags": ["Spicy", "Street Food", "Popular"]
+      }
+    ],
+    "activities": [
+      {
+        "name": "Bollywood Dance Battle",
+        "description": "Competitive dance performances to popular Bollywood songs",
+        "duration": "60 minutes",
+        "participants": "Teams and individuals"
+      }
+    ]
+  },
+  {
+    "id": "south-indian-temple-festival",
+    "name": "South Indian Temple Festival",
+    "category": "religious",
+    "description": "Traditional South Indian celebration with classical music, dance, temple decorations, and authentic cuisine.",
+    "colorScheme": ["#FF6B35", "#50C878", "#FFD700", "#4169E1", "#800020"],
+    "decorItems": [
+      {
+        "name": "Kolam Floor Art Stencils",
+        "category": "Floor Decor",
+        "shopLink": "https://south-indian-art.com/kolam-stencils",
+        "price": 350,
+        "image": "/images/kolam-stencils.jpg"
+      },
+      {
+        "name": "Temple Bell Decorations",
+        "category": "Religious Decor",
+        "shopLink": "https://temple-decor.com/bells",
+        "price": 500,
+        "image": "/images/temple-bells.jpg"
+      }
+    ],
+    "playlist": {
+      "name": "Carnatic Classical & Devotional",
+      "description": "Traditional South Indian classical music and bhajans",
+      "duration": "4h 30m",
+      "songs": ["Venkatesha Stotra", "Bharatanatyam Music", "Tamil Devotional"],
+      "spotifyLink": "https://open.spotify.com/playlist/south-indian-classical"
+    },
+    "menuItems": [
+      {
+        "name": "Traditional Sadya Feast",
+        "type": "Full Meal",
+        "recipeLink": "https://recipe.com/kerala-sadya",
+        "servings": 100,
+        "dietaryTags": ["Vegetarian", "Traditional", "Complete"]
+      }
+    ],
+    "activities": [
+      {
+        "name": "Bharatanatyam Performance",
+        "description": "Classical South Indian dance presentation",
+        "duration": "45 minutes",
+        "participants": "Professional dancers"
+      }
+    ]
+  },
+  {
+    "id": "punjabi-bhangra-night",
+    "name": "Punjabi Bhangra Night",
+    "category": "celebration",
+    "description": "Energetic Punjabi celebration with dhol beats, bhangra dancing, and hearty Punjabi food.",
+    "colorScheme": ["#FF6B35", "#FFD700", "#50C878", "#4169E1", "#DC143C"],
+    "decorItems": [
+      {
+        "name": "Punjabi Phulkari Decorations",
+        "category": "Textile Decor",
+        "shopLink": "https://punjabi-craft.com/phulkari",
+        "price": 800,
+        "image": "/images/phulkari-decor.jpg"
+      },
+      {
+        "name": "Dhol Set for Performance",
+        "category": "Musical Instruments",
+        "shopLink": "https://punjabi-music.com/dhol-set",
+        "price": 1200,
+        "image": "/images/dhol-set.jpg"
+      }
+    ],
+    "playlist": {
+      "name": "Bhangra Party Hits",
+      "description": "High-energy Punjabi songs and bhangra beats",
+      "duration": "3h 45m",
+      "songs": ["Mundian To Bach Ke", "Tunak Tunak Tun", "Balle Balle"],
+      "spotifyLink": "https://open.spotify.com/playlist/bhangra-hits"
+    },
+    "menuItems": [
+      {
+        "name": "Punjabi Feast",
+        "type": "Full Meal",
+        "recipeLink": "https://recipe.com/punjabi-feast",
+        "servings": 60,
+        "dietaryTags": ["Rich", "Traditional", "Hearty"]
+      }
+    ],
+    "activities": [
+      {
+        "name": "Bhangra Dance Workshop",
+        "description": "Learn traditional Punjabi folk dance moves",
+        "duration": "60 minutes",
         "participants": "All ages"
       }
     ]

@@ -22,9 +22,10 @@ const [partyData, setPartyData] = useState({
   const [loading, setLoading] = useState(false);
   const [editingElement, setEditingElement] = useState(null);
 
-  const occasions = [
+const occasions = [
     'Birthday Party', 'Wedding', 'Baby Shower', 'Graduation', 'Anniversary',
-    'Holiday Party', 'Corporate Event', 'Housewarming', 'Retirement', 'Bachelor/Bachelorette'
+    'Diwali', 'Holi', 'Karva Chauth', 'Ganesh Chaturthi', 'Dussehra',
+    'Corporate Event', 'Housewarming', 'Retirement', 'Engagement'
   ];
 
   const ageRangeOptions = [
@@ -210,10 +211,10 @@ const [partyData, setPartyData] = useState({
                   <select
                     value={partyData.currency}
                     onChange={(e) => setPartyData({ ...partyData, currency: e.target.value })}
-                    className="px-3 py-2 bg-gray-50 border-2 border-gray-200 rounded-lg focus:border-primary focus:bg-white transition-all duration-200"
+className="px-3 py-2 bg-gray-50 border-2 border-gray-200 rounded-lg focus:border-primary focus:bg-white transition-all duration-200"
                   >
-                    <option value="USD">USD ($)</option>
                     <option value="INR">INR (₹)</option>
+                    <option value="USD">USD ($)</option>
                   </select>
                 </div>
                 <input

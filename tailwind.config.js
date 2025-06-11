@@ -4,29 +4,31 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
+theme: {
     extend: {
       colors: {
-        primary: '#FF6B6B',
-        secondary: '#4ECDC4',
-        accent: '#FFE66D',
+        primary: '#FF6B35', // Saffron Orange
+        secondary: '#50C878', // Emerald Green
+        accent: '#FFB347', // Marigold Yellow
+        royal: '#4169E1', // Royal Blue
+        crimson: '#DC143C', // Traditional Red
         surface: {
-          50: '#f8fafc',
-          100: '#f1f5f9',
-          200: '#e2e8f0',
-          300: '#cbd5e1',
-          400: '#94a3b8',
-          500: '#64748b',
-          600: '#475569',
-          700: '#334155',
-          800: '#1e293b',
-          900: '#0f172a'
+          50: '#fef7f0',
+          100: '#fef2e8',
+          200: '#fce7d6',
+          300: '#f9d5b8',
+          400: '#f5b885',
+          500: '#f19654',
+          600: '#ed7c3c',
+          700: '#e85d1c',
+          800: '#c44d18',
+          900: '#a03f16'
         }
       },
       fontFamily: {
-        sans: ['Plus Jakarta Sans', 'ui-sans-serif', 'system-ui'],
-        heading: ['Fredoka One', 'ui-sans-serif', 'system-ui'],
-        display: ['Fredoka One', 'ui-sans-serif', 'system-ui']
+        sans: ['Poppins', 'ui-sans-serif', 'system-ui'],
+        heading: ['Playfair Display', 'ui-serif', 'serif'],
+        display: ['Cinzel', 'ui-serif', 'serif']
       }
     },
   },

@@ -12,13 +12,13 @@ const BrowseThemes = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const navigate = useNavigate();
 
-  const categories = [
+const categories = [
     { id: 'all', label: 'All Themes', icon: 'Grid3x3' },
     { id: 'birthday', label: 'Birthday', icon: 'Cake' },
     { id: 'wedding', label: 'Wedding', icon: 'Heart' },
-    { id: 'holiday', label: 'Holiday', icon: 'Sparkles' },
-    { id: 'kids', label: 'Kids Party', icon: 'Baby' },
-    { id: 'corporate', label: 'Corporate', icon: 'Briefcase' }
+    { id: 'festival', label: 'Festival', icon: 'Sparkles' },
+    { id: 'religious', label: 'Religious', icon: 'Star' },
+    { id: 'celebration', label: 'Celebration', icon: 'PartyPopper' }
   ];
 
   useEffect(() => {
